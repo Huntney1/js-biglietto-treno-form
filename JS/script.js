@@ -16,10 +16,10 @@ let prezzoIntero = numkm * 0.21;
 
 let prezzoFinale = prezzoIntero; 
 
-if (eta <= 17) {
+if (eta <= 17 , eta === "minorenne") {
     prezzoFinale = prezzoIntero  * 0.8 ;
 }
-else if (eta >= 65) {
+else if (eta >= 65, eta === "over-65" ) {
     prezzoFinale = prezzoIntero  * 0.6 ;
     
 }
